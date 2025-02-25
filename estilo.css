@@ -1,0 +1,57 @@
+body{
+    background-color: lightgray;
+}
+header{
+    text-align: center;
+    background-color: darkgray;
+}
+
+.team{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+@media only screen and (max-width: 480px){
+    article{width: 100%;}
+    article{text-align: center;}
+    
+}
+@media only screen and (min-width: 480px){
+    article{width: 30%;}
+    article{text-align: center;}
+}
+@media only screen and (min-width: 768px){
+    article{width: 15%;}
+    img{text-align: center;}
+    article{text-align: center;}
+}
+.member {
+    background-color: #ffffff; 
+    border: 2px solid #000000;
+    padding: 25px; 
+    margin: 10px; 
+}
+
+article img{
+    border-radius: 50%;
+    border-color: black;
+    max-height: 150px;
+    width: 100%;
+    min-height: 150px;
+}
+@media(orientation:portrait){
+    header{text-align: center;background-color:darkgray;transform: scale(1.05)}
+    article img {text-align:center}
+    article{text-align: center;}
+}
+@media only all and (min-width:768px){ 
+    article:hover{background-color: lightblue;}
+}
+@media(orientation:landscape) and (prefers-color-scheme: dark){
+    body{background-color: gray;}
+    header{text-align: center;
+           background-color: lightgray;}
+    article{text-align: center;}
+}
+
