@@ -3,7 +3,7 @@ import java.io.*;
 import java.sql.*;
 
 
-public class personaEj8App {
+public class archivo {
     Scanner sc= new Scanner(System.in);
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
