@@ -34,7 +34,7 @@ public class personaEj8App {
             break;
 
         case 4:
-           
+		System.out.println("Este es el caso 4");           
                 
             break;
 
