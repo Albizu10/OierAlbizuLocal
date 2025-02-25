@@ -1,5 +1,4 @@
-package POO;
-import java.util.Scanner;
+import java.util.*;
 
 public class personaEj8App {
     Scanner sc= new Scanner(System.in);
